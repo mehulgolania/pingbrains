@@ -1,0 +1,190 @@
+/* ==========================================================================
+Base styles: opinionated defaults
+========================================================================== */
+::-moz-selection {
+background: #00eb94;
+text-shadow: none;
+color:#fff;
+}
+
+::selection {
+background: #00eb94;
+text-shadow: none;
+color:#fff;
+}
+
+::-webkit-input-placeholder{
+text-align:center;	
+opacity:1;
+color:#414653;
+}
+
+::-moz-placeholder {  /* Firefox 19+ */
+opacity:1;
+color:#414653;  
+}
+
+/* ==========================================================================
+Font css
+========================================================================== */
+/*@font-face {
+	font-family: 'OpenSans-Light';
+	font-weight: normal;
+	src: url('../fonts/OpenSans-Light.eot?') format('eot'), 
+	     url('../fonts/OpenSans-Light.woff') format('woff'), 
+	     url('../fonts/OpenSans-Light.ttf')  format('truetype'),
+	     url('../fonts/OpenSans-Light.svg#OpenSans-Light') format('svg');
+}*/
+
+@import url(http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800);
+
+/* ==========================================================================
+Helper classes
+========================================================================== */
+.full-width-wrapper{width:100%;}
+.width-content{width:1200px;margin:0 auto;}
+.left{float:left;}
+.right{float:right;}
+
+.green-bg{background:#00eb94;}
+.gray-bg{background:#fafafa;}
+.dark-gray-bg{background:#f7f7f7;}
+.white-bg{background:#fff;}
+
+
+
+/* ==========================================================================
+Header Section
+========================================================================== */
+.logo-section-wrapper{text-align:center;border-bottom:3px solid #00d184;padding:20px 0px;}
+.logo-section a{display:inline-block;}
+
+/* ==========================================================================
+Signup Section
+========================================================================== */
+.sign-up-section-wrapper{padding:60px 0px;}
+.sign-up-wrapper .left-section{width:760px;display:table-cell;vertical-align:middle;}
+.sign-up-wrapper .right-section{min-width:440px;display:table-cell;vertical-align:middle;padding:0px 25px;}
+
+.sign-up-wrapper .left-section h2{font-family: 'Open Sans', sans-serif;font-weight:300;font-size:45px;color:#777;letter-spacing:2.2px;margin:0px;margin-bottom:10px;}
+.sign-up-wrapper .right-section .sign-up-wrapper{width:390px;min-width:350px;}
+.sign-up-wrapper .right-section .sign-up-box{text-align:center;padding:25px 18px;border:1px solid #d5d6d9;}
+.sign-up-box h3{text-transform:capitalize;font-family: 'Open Sans', sans-serif;font-weight:400;font-size:24px;color:#414653;letter-spacing:2px;display:inline-block;margin:0px;padding:0px 50px 15px 50px;border-bottom:1px solid #d5d6d9;}
+.sign-up-box p{font-family: 'Open Sans', sans-serif;font-weight:normal;font-size:12px;color:#414653;letter-spacing:1px;padding:0px 20px;line-height:1.7;margin:25px 0px 30px 0px;}
+.sign-up-box p span{color:#00eb94;}
+.sign-up-box input{box-sizing: border-box;display:block;width:100%;text-align:center;border:none;border-bottom:1px solid #d6d7d9;outline:0px;font-family: 'Open Sans', sans-serif;font-weight:normal;font-size:14px;color:#414653;letter-spacing:1px;background:#fafafa url('../img/input-bg.png') no-repeat 100% 100%;}
+.sign-up-box input:focus{border-bottom:1px solid #00eb94;background:url('../img/input-bg-active.png') no-repeat 100% 100%;}
+.sign-up-box .password{margin:30px 0px;}
+.sign-up-box input[type="submit"]{background:#414653;color:#fff;font-size:20px;padding:10px 0px;}
+
+
+.signup-with-section{text-align:center;}
+.signup-with-section h4{font-family: 'Open Sans', sans-serif;font-weight:normal;font-size:20px;color:#333e50;letter-spacing:1.5px;margin:25px 0px;}
+.social-box-wrapper{margin-bottom:25px;}
+.signup-with-section .social-box{display:inline-block;vertical-align:middle;width:100px;border:1px solid #D5D6D9;margin:0px 12px;}
+.signup-with-section .social-box a{display:block;padding:7px 0px;}
+.signup-with-section .social-box a i.facebook-icon{display:block;width:14px;height:23px;overflow:hidden;background:url('../img/sprite.png') no-repeat -1px 0px;margin:0 auto;}
+.signup-with-section .social-box a i.google-plus-icon{display:block;width:23px;height:23px;overflow:hidden;background:url('../img/sprite.png') no-repeat -16px 0px;margin:0 auto;}
+.signup-with-section p{font-family: 'Open Sans', sans-serif;font-weight:normal;font-size:12px;color:#333e50;letter-spacing:1px;}
+.signup-with-section p span a{text-decoration:underline;color:#d94255;}
+
+
+/* ==========================================================================
+Signup Now Section
+========================================================================== */
+.sign-up-now-section-wrapper{padding:60px 0px 50px 0px;border-top:1px solid #dedede;}
+.sign-up-now-section{text-align:center;}
+.sign-up-now-section h3{width:960px;max-width:100%;margin:0 auto;font-family: 'Open Sans', sans-serif;font-weight:400;font-size:24px;color:#333;letter-spacing:2px;line-height:2;}
+.sign-up-now-section button{width:190px;border:1px solid #333e50;background:#fff;font-family: 'Open Sans', sans-serif;font-weight:400;font-size:20px;color:#333e50;letter-spacing:1px;padding:8px 0px 9px 0px;margin:30px 0 0 0;}
+.sign-up-now-section button:hover{box-shadow:#eaebed 4px 4px;}
+
+/* ==========================================================================
+PingsBrain Stories Section
+========================================================================== */
+.pingbrains-stories-section{padding:60px 0px 40px 0px;}
+.big-heading h2{text-align:center;font-family: 'Open Sans', sans-serif;font-weight:300;font-size:35px;color:#242831;letter-spacing:1.5px;margin:0px;}
+.stories-section-wrapper{margin-top:60px;text-align:center;}
+.stories-box{text-align:center;width:29.16%;min-height:350px;display:inline-block;vertical-align:top;background:#fff;padding:20px;margin-right:5.83%;margin-bottom:20px;}
+.stories-box .user-photo{position:relative;width:84px;height:84px;overflow:hidden;border-radius:100%;border:3px solid #f0f0f0;margin:0 auto;}
+.stories-box .user-photo img{width:100%;}
+.stories-box .user-name{font-family: 'Open Sans', sans-serif;font-weight:400;font-size:18px;color:#000;letter-spacing:1px;margin-top:20px;}
+.stories-box .hired-by{font-family: 'Open Sans', sans-serif;font-weight:400;font-size:14px;color:#666;letter-spacing:1px;margin-top:10px;}
+.stories-box .hired-by span{display:inline-block;vertical-align:middle;}
+.stories-box .testimonails-content{font-family: 'Open Sans', sans-serif;font-weight:400;font-size:16px;color:#000;letter-spacing:1.5px;line-height:1.7;margin-top:30px;}
+.stories-box:hover{border-bottom:5px solid #00eb94;}
+.stories-box:hover .user-photo{border-color:#00eb94;}
+.last-box{margin-right:0px;}
+.tech-section{margin-top:50px;border-top:1px solid #dedede;text-align:center;font-family: 'Open Sans', sans-serif;font-weight:300;font-size:24px;color:#666;letter-spacing:1.5px;padding:20px 0px 0px;}
+
+/* ==========================================================================
+Best Developer Section
+========================================================================== */
+.best-developer-section-wrapper{padding:60px 0px 45px 0px;background:#fff url('../img/border-bg.png') no-repeat center 100%;}
+.course-section{text-align:center;margin:50px auto 0px auto;width:1155px;max-width:100%;background:#fcfcfc;padding:30px 0px;}
+.course-section p{margin:0px;text-transform:uppercase;font-family: 'Open Sans', sans-serif;font-weight:normal;font-size:16px;color:#242831;letter-spacing:1.5px;}
+
+/* ==========================================================================
+Online Course Section
+========================================================================== */
+.online-course-section-wrapper{padding:85px 0px 80px 0px;background:#fff url('../img/border-bg.png') no-repeat center 100%;}
+.online-course-section-wrapper .width-content{position:relative;}
+.online-course-section{margin-top:75px;background:#fdfdfd;}
+.online-course-section ul{list-style:none;padding:0px;margin:0px;}
+.online-course-section ul li{display:table;float:left;width:25%;height:190px;min-height:190px;border:1px solid #ebebeb;margin:0px -1px -1px 0px;}
+.online-course-section ul li.border-top-none{border-top:none;}
+.online-course-section ul li.border-right-none{border-right:none;}
+.online-course-section ul li.border-bottom-none{border-bottom:none;}
+.online-course-section ul li.border-left-none{border-left:none;}
+.online-course-section ul li span.course-box{width:25%;height:100%;min-width:25%;display:table-cell;vertical-align:middle;text-align:center;padding:25px;}
+.online-course-section ul li span.course-logo, .online-course-section ul li span.course-content{display:block;}
+.online-course-section ul li span.course-logo{margin-bottom:15px;}
+.online-course-section ul li span.course-logo img{max-width:100%;}
+.online-course-section ul li span.course-content{font-family: 'Open Sans', sans-serif;font-weight:normal;font-size:14px;color:#666;letter-spacing:1.5px;}
+.top-green-arrow{position:absolute;right:-100px;top:-180px;}
+.bottom-green-arrow{position:absolute;bottom:-120px;left:-100px;}
+
+/* ==========================================================================
+Job You Love Section
+========================================================================== */
+.job-you-love-section-wrapper{padding:90px 0px;}
+.companies-logo-wrapper{text-align:center;margin-top:75px;}
+.companies-logo-wrapper ul{list-style:none;padding:0px;margin:0px;}
+.companies-logo-wrapper ul li{width:15%;display:inline-block;vertical-align:middle;margin:0px 4px;}
+.companies-logo-wrapper ul li img{max-width:100%;}
+
+/* ==========================================================================
+Contact Section
+========================================================================== */
+.contact-section-wrapper{padding:100px 0px 75px 0px;background:url('../img/contact-bg.jpg') no-repeat;background-size:cover;position:relative;
+filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/contact-bg.jpg',sizingMethod='scale');
+-ms-filter: progid:DXImageTransform.Microsoft.AlphaImageLoader(src='img/contact-bg.jpg', sizingMethod='scale');}
+
+.heading-section{background:url('../img/contact-border.png') no-repeat center 100%;padding-bottom:45px;}
+.heading-section h2{text-transform:uppercase;text-align:center;font-family: 'Open Sans', sans-serif;font-weight:300;font-size:34px;color:#242831;letter-spacing:1.5px;}
+.contact-box-wrapper{margin:100px 0px 85px 0px;text-align:center;}
+.contact-box-wrapper ul{list-style:none;margin:0px;padding:0px;list-style:0px;}
+.contact-box-wrapper ul li.contact-box{display:inline-block;vertical-align:top;width:30%;min-height:150px;background:#fff;padding:30px 10px 10px 10px;}
+.contact-box-wrapper ul li.contact-box i.map-icon{display:block;width:14px;height:18px;margin:0 auto;background:url('../img/sprite.png') -40px 0px;}
+.contact-box-wrapper ul li.contact-box i.phone-icon{display:block;width:15px;height:20px;margin:0 auto;background:url('../img/sprite.png') -55px 0px;}
+.contact-box-wrapper ul li.contact-box i.mail-icon{display:block;width:16px;height:19px;margin:0 auto;background:url('../img/sprite.png') -71px 0px;}
+.contact-box-wrapper ul li.contact-box h4{text-transform:uppercase;font-family: 'Open Sans', sans-serif;font-weight:normal;font-size:16px;color:#00eb94;letter-spacing:1.5px;margin:10px 0px 20px 0px;}
+.contact-box-wrapper ul li.contact-box p.content{font-family: 'Open Sans', sans-serif;font-weight:normal;font-size:14px;color:#8d8d8d;letter-spacing:1px;}
+.contact-box-wrapper ul li.contact-box p.content a{color:#8d8d8d;text-decoration:none;}
+.box-margin-set{margin:0px 40px;}
+.scoll-to-top-arrow{position:absolute;display:block;width:50px;height:50px;overflow:hidden;top:0px;left:50%;margin:-25px 0px 0px -25px;background:url('../img/sprite.png') no-repeat -88px 0px;cursor:pointer;}
+.scoll-to-top-arrow:hover{opacity:0.8;}
+.social-section ul{text-align:center;margin:0px;padding:0px;list-style:none;}
+.social-section ul li.social-icon{display:inline-block;vertical-align:middle;}
+.social-section ul li.social-icon a.s-facebook-icon{display:block;width:40px;height:40px;overflow:hidden;background:url('../img/sprite.png') no-repeat -139px 0px;}
+.social-section ul li.social-icon a.s-twitter-icon{display:block;width:40px;height:40px;overflow:hidden;background:url('../img/sprite.png') no-repeat -180px 0px;}
+.social-section ul li.social-icon a.s-google-plus-icon{display:block;width:40px;height:40px;overflow:hidden;background:url('../img/sprite.png') no-repeat -221px 0px;}
+.icon-margin-set{margin:0px 25px;}
+.stay-update .content input[type="text"]{width:65%;text-align:left;border:1px solid #eee;padding:5px 10px;font-family: 'Open Sans', sans-serif;font-weight:normal;font-size:14px;color:#8d8d8d;letter-spacing:1px;margin-right:-5px;outline:0px;}
+.stay-update .content input[type="submit"]{text-transform:capitalize;background:#414653;color:#fff;font-family: 'Open Sans', sans-serif;font-weight:normal;font-size:14px;border:0px;padding:5px 10px;border:1px solid #eee;letter-spacing:0.5px;}
+/* ==========================================================================
+Footer Copyright Section
+========================================================================== */
+.copyright-section-wrapper{background:#242831;}
+.copyright h5{text-align:center;margin:0px;font-family: 'Open Sans', sans-serif;font-weight:normal;font-size:14px;color:#fff;letter-spacing:1px;padding:31px 0px;}
+
+

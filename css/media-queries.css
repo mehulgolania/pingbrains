@@ -1,0 +1,71 @@
+@media only screen and (max-width:1440px){
+	.top-green-arrow{right:5px;top:-115px;}
+	.bottom-green-arrow{left:5px;bottom:-200px;}
+}
+
+@media only screen and (max-width:1200px){
+	.width-content{width:100%;padding:0px 10px;}
+	.sign-up-wrapper .right-section{padding:0 15px;}
+	.stories-box{margin-right:3%;}
+	.box-margin-set{margin:0px 25px;}
+	
+}
+
+
+@media only screen and (max-width:1024px){
+	.stories-box{margin-right:1%;}	
+}
+
+
+@media only screen and (max-width:1023px){
+	.online-course-section ul li span.course-box{padding:8px;}
+	.top-green-arrow{height:100px;top:-75px;}
+	.bottom-green-arrow{height:100px;bottom:-195px;}
+	.top-green-arrow img, .bottom-green-arrow img{max-height:100%;}
+}
+
+@media only screen and (max-width:960px){
+	.box-margin-set{margin:0px 10px;}
+	.stay-update .content input[type="submit"]{padding:5px;}
+	.contact-box-wrapper ul li.contact-box{padding:30px 5px 10px;}
+}
+
+
+@media only screen and (max-width:767px){
+	.padding-top-bottom{padding:20px 0px;}
+	.tech-section, .online-course-section, .course-section, .companies-logo-wrapper{margin-top:20px;}
+
+	.logo-section-wrapper{padding:10px 0px 8px 0px;}
+	.sign-up-wrapper .left-section, .sign-up-wrapper .right-section{width:100%;display:block;text-align:center;padding:0px;min-width:0px;}
+	.sign-up-wrapper .left-section h2{font-size:20px;}
+	.sign-up-box p{padding:0px;}
+	.sign-up-wrapper .right-section .sign-up-wrapper{margin:30px auto 0px auto;min-width:0px;max-width:100%;}
+	.sign-up-now-section h3{line-height:1.7;}
+	.stories-section-wrapper{margin-top:30px;}
+	.stories-box{min-width:280px;max-width:100%;margin:0px 5px 20px 5px;}
+	.online-course-section ul li{width:33.33%;min-width:0px;border:1px solid #EBEBEB !important;}
+	.companies-logo-wrapper ul li{width:100px;margin:10px;}
+	.heading-section{padding-bottom:25px;}
+	.contact-box-wrapper{margin:20px 0px 30px 0px;}
+	.contact-box-wrapper ul li.contact-box{width:300px;margin:0px 5px 20px;}
+	.box-margin-set{margin:0px;}
+	.top-green-arrow, .bottom-green-arrow{display:none;}
+
+	.sign-up-now-section h3{font-size:18px;}
+	.sign-up-now-section button{width:150px;font-size:16px;}
+	.big-heading h2, .heading-section h2{font-size:30px;}
+	.stories-box .user-name, .stories-box .testimonails-content{font-size:16px;}
+	.tech-section{font-size:18px;}
+	.course-section p{font-size:14px;}
+
+}
+
+@media only screen and (max-width:580px){
+	.online-course-section ul li{width:50%;}
+}
+
+@media only screen and (max-width:400px){
+	.online-course-section ul li{width:300px;max-width:100%;margin: 0 auto;float:none;padding:20px;margin:0px 0px -1px;}	
+}
+
+
